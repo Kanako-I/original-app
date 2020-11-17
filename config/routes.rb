@@ -2,7 +2,8 @@ Rails.application.routes.draw do
   devise_for :users
   get 'tops/index'
   get 'messages/index'
+  get 'rooms/index'
   root to: "tops#index"
 
-  resources :messages, :tops, :users
+  resources :messages, :tops, :users, :rooms
 end

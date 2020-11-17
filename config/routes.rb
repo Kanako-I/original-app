@@ -4,5 +4,5 @@ Rails.application.routes.draw do
   get 'messages/index'
   root to: "tops#index"
 
-  resources :messages, :tops, :users
+  resources :messages, :tops, :users, :rooms
 end

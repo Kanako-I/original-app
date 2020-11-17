@@ -1,8 +1,86 @@
-<h1>Welcome to Chat in Tokyo !</h1>
-<div class="top1">
-  <a href="users/sign_in">Sign in</a>
-</div>
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Welcome to chat in Tokyo !</title>
+  </head>
+  <body>
+    <header>
+      <div class="heading">
+        <h1 class="title">Welcome to "chat in Tokyo !"</h1>
+      </div>
+      <div class="navbar">
+      <ul class="nav-lists">
+        <li><a href="users/sign_in">Sign in</a></li>
+        <li><a href="users/sign_up">Sign up</a></li>
+      </ul>
+      </div>
+    </header>
 
-<div class="top1">
-  <a href="users/sign_up">Sign up</a>
-</div>
+    <div class="contents">
+      <div class="first-view">
+        <!-- 『トップ画像』を表示する -->
+        <img src="images/hero.jpg" alt="トップ画像" class="top-image">
+      </div>
+      <div class="upper-content">
+        <!-- 『新着情報』を表示する -->
+        <h2 class="heading-name">新着情報</h2>
+        <ul class="messages">
+          <li class="message">
+            <div class="message-date">2019/10/06</div>
+            <div>【新規のお客さま限定】<b>10％OFF</b>キャンペーン</div>
+          </li>
+          <li class="message">
+            <div class="message-date">2019/10/03</div>
+            <div>うれしい<b>ポイントアップキャンペーン</b></div>
+          </li>
+          <li class="message">
+            <div class="message-date">2019/09/27</div>
+            <div>2020年成人式 ご予約承ります</div>
+          </li>
+          <li class="message">
+            <div class="message-date">2018/10/03</div>
+            <div>うれしい<b>ポイントアップキャンペーン</b></div>
+          </li>
+          <li class="message">
+            <div class="message-date">2018/09/27</div>
+            <div>2019年成人式 ご予約承ります</div>
+          </li>
+        </ul>
+      </div>
+      <div class="middle-content">
+        <!-- 『スタイリスト紹介』を表示する -->
+        <h2 class="heading-name">スタイリスト紹介</h2>
+        <ul class="stylist-list">
+          <li>
+            <img src="images/staff1.jpg" alt="staff1" class="stylist-image">
+            <h4 class="stylist-name">鈴木</h4>
+          </li>
+          <li>
+            <img src="images/staff2.jpg" alt="staff2" class="stylist-image">
+            <h4 class="stylist-name">佐藤</h4>
+          </li>
+          <li>
+            <img src="images/staff3.jpg" alt="staff3" class="stylist-image">
+            <h4 class="stylist-name">山田</h4>
+          </li>
+        </ul>
+      </div>
+      <div class="bottom-content">
+        <!-- 『フォーム』を表示する -->
+        <form class="contact-form">
+          <h2 class="heading-name">メールで予約</h2>
+          <input type="text" placeholder="name" class="small-field">
+          <input type="text" placeholder="e-mail" class="small-field">
+          <textarea placeholder="message" class="large-field"></textarea>
+          <input type="submit" value="SEND" class="send">
+        </form>
+      </div>
+    </div>
+
+    <footer>
+      <p>Copyright(C) Hair OLIVE ALL RIGHTS RESERVED.</p>
+    </footer>
+  </body>
+</html>

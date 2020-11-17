@@ -6,7 +6,9 @@
   </div>
   <div class="right-header">
     <div class="header-button">
-      <%= link_to "Close the room", room_path(@room), method: :delete %>
+      <% if current_user.id == @room.user_id %>
+        <%= link_to "Close the room", room_path(@room), method: :delete %>
+      <% end %>
     </div>
   </div>
 </div>

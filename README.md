@@ -1,24 +1,43 @@
-# README
+# テーブル設計
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## users テーブル
+| Column         | Type    | Options                   |
+| -------------  | ------- | ------------------------- |
+| first_name     | string  | null: false               |
+| last_name      | string  | null: false               |
+| email          | string  | null: false, unique: true |
+| password       | string  | null: false               |
+| resident       | integer | null: false               |
+| age            | integer | null: false               |
+| occupation     | integer | null: false               |
+### Association
+  has_many :community_messages
+  has_many :rent_messages
+  has_many :buy_sell_messages
 
-Things you may want to cover:
 
-* Ruby version
+## community_messages テーブル
+| Column    | Type       | Options                        |
+| --------- | ---------- | ------------------------------ |
+| content   | string     |                                |
+| user      | references | null: false, foreign_key: true |
+### Association
+- has_many :users
 
-* System dependencies
 
-* Configuration
+## rent_messages テーブル
+| Column    | Type       | Options                        |
+| --------- | ---------- | ------------------------------ |
+| content   | string     |                                |
+| user      | references | null: false, foreign_key: true |
+### Association
+- has_many :users
 
-* Database creation
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## buy_sell_messages テーブル
+| Column    | Type       | Options                        |
+| --------- | ---------- | ------------------------------ |
+| content   | string     |                                |
+| user      | references | null: false, foreign_key: true |
+### Association
+- has_many :users

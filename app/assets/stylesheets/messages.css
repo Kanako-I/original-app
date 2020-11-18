@@ -110,13 +110,14 @@
 }
 
 .lower-message {
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 .message-content {
   color: #434a54;
-  font-size: 18px;
+  font-size: 19px;
   margin-bottom: 40px;
+  text-decoration: none;
 }
 
 .form {

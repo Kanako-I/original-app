@@ -8,6 +8,6 @@ Rails.application.routes.draw do
   resources :tops
   resources :users, only: [:edit, :update]
   resources :rooms, only: [:new, :create, :destroy, :index] do
-    resources :messages, only: [:index, :create, :destroy]
+    resources :messages, only: [:index, :create, :destroy, :edit]
   end
 end

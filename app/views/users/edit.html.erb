@@ -3,7 +3,7 @@
     <div class='account-page__inner--left account-page__header'>
       <h2>Edit Account</h2>
       <%= link_to "Log out", destroy_user_session_path, method: :delete, class: 'btn'%>
-      <%= link_to "Back to chat page", messages_index_path, class: 'btn'%>
+      <%= link_to "Back to chat page", rooms_index_path, class: 'btn'%>
     </div>
     <div class='account-page__inner--right user-form'>
       <%= form_with model: current_user, local: true do |f|%>

@@ -1,4 +1,6 @@
 class RoomsController < ApplicationController
+  before_action :move_to_index
+  
   def index
   end
 

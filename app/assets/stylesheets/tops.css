@@ -50,12 +50,14 @@ li{
 }
 
 .first-view{
-  height: 60vh;
+  height: 65vh;
 }
 
 .top-image{
   height: 100%;
-  width: 100%;
+  width: 50%;
+  display: flex;
+  margin: 0 auto;
 }
 
 .upper-content{

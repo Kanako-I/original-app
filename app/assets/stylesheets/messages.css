@@ -100,12 +100,12 @@
 
 .message-user {
   color: #434a54;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .message-date { 
   color: #999;
-  font-size: 12px;
+  font-size: 10px;
   padding-left: 10px;
 }
 
@@ -115,7 +115,7 @@
 
 .message-content {
   color: #434a54;
-  font-size: 14px;
+  font-size: 18px;
   margin-bottom: 40px;
 }
 

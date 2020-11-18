@@ -5,19 +5,14 @@ body {
   margin: 0 auto;
 }
 
-h1,h2,h3,h4,h5,h6,p {
+h1,h2,p {
   padding: 10px 0;
-  margin: 0;
-}
-
-ul,li {
-  padding: 0;
   margin: 0;
 }
 
 header{
   height: 130px;
-  background-color: #f0f0f0;
+  background-color: #CD853F;
   padding: 10px o;
   display: flex;
 }
@@ -70,10 +65,11 @@ li{
 
 .heading-name{
   text-align: center;
-  border-bottom: 1px solid red;
+  border-bottom: 1px solid #D2691E;
   width: 200px;
   margin: 40px auto;
   font-size: 25px;
+  color: #D2691E; 
 }
 
 .details {
@@ -82,8 +78,8 @@ li{
 
 footer{
   height: 50px;
-  background-color: #f0f0f0;
+  background-color: #CD853F ;
   text-align: center;
-  color: gray;
+  color: 696969;
 }
 

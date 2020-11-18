@@ -1,5 +1,22 @@
 <div class='wrapper'>
   <div class='side-bar'>
-    <%= render "messages/side_bar" %>
+    <div class="side-bar-header"> 
+      <div class="header-name">
+        <%= link_to current_user.first_name, edit_user_path(current_user) %>
+      </div>
+      <div class="create-room">
+        <a href="rooms/new">Create a room</a>
+      </div>
+    </div>
+
+    <div class="rooms">
+      <% Room.all.each do |room| %>
+        <div class="chatroom">
+          <div class="room-name">
+            <%= link_to room.name, room_messages_path(room) %>
+          </div>
+        </div>
+      <% end %>
+    </div>
   </div>
 </div>

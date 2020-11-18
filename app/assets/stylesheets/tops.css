@@ -5,19 +5,16 @@ body {
   margin: 0 auto;
 }
 
-h1,h2,h3,h4,h5,h6,p {
+
+h1,h2,p {
   padding: 10px 0;
   margin: 0;
 }
 
-ul,li {
-  padding: 0;
-  margin: 0;
-}
 
 header{
   height: 130px;
-  background-color: #f0f0f0;
+  background-color: #CD853F;
   padding: 10px o;
   display: flex;
 }
@@ -25,18 +22,25 @@ header{
 .heading{
   margin-left: 30px;
   width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .navbar {
   width: 50%;
   padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .nav-lists{
   margin-right: 20px;
   padding: 0;
-  display: flex;
+  display: flex;  
   justify-content: flex-end;
+  align-items: center;
 }
 
 li{
@@ -48,12 +52,14 @@ li{
 }
 
 .first-view{
-  height: 60vh;
+  height: 65vh;
 }
 
 .top-image{
   height: 100%;
-  width: 100%;
+  width: 50%;
+  display: flex;
+  margin: 0 auto;
 }
 
 .upper-content{
@@ -63,98 +69,20 @@ li{
 
 .heading-name{
   text-align: center;
-  border-bottom: 1px solid red;
+  border-bottom: 1px solid #D2691E;
   width: 200px;
   margin: 40px auto;
+  font-size: 25px;
+  color: #D2691E; 
 }
 
-.messages{
-  width: 50vw;
-  margin: 0 auto;
-}
-
-.message{
-  font-size: 18px;
-  margin: 0 0 16px 70px;
-  display: flex;
-}
-
-.message-date{
-  padding-right: 40px;
-}
-
-.middle-content{
-  height: 450px;
-  margin: 0 160px;
-}
-
-.stylist-list{
-  display: flex;
-  justify-content: space-around;
-  margin: 60px 0;
-}
-
-.stylist-image {
-  height: 300px;
-}
-
-.stylist-name {
-  font-size: 16px;
-  text-align: center;
-}
-
-.bottom-content{
-  height: 800px;
-  margin: 0 160px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.small-field, .large-field {
-  width: 800px;
-  font-size: 16px;
-  padding: 15px;
-  border: 1px solid #b5aaaa;
-  display: block;
-}
-
-.small-field{
-  margin: 0 auto 15px;
-}
-
-.large-field{
-  height: 200px;
-  margin: 0 auto 30px;
-}
-
-.send {
-  width: 200px;
-  margin: 0 auto;
-  padding: 15px;
-  border: 1px solid white;
-  background-color: lightblue;
-  color:white;
-  display: block;
+.details {
+  font-size: 20px;
 }
 
 footer{
   height: 50px;
-  background-color: #f0f0f0;
+  background-color: #CD853F ;
   text-align: center;
-  color: gray;
+  color: 696969;
 }
-
-
-
-<div class="toptop">
- <div class="top">Welcome to<p>Chat in Tokyo !</p></div>
- 
- <div class="top1">
-   <a href="users/sign_in">Sign in</a>
- </div>
- 
- <div class="top1">
-   <a href="users/sign_up">Sign up</a>
- </div>
-</div>

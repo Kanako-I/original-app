@@ -3,7 +3,7 @@ class MessagesController < ApplicationController
   
   def index
     @message = Message.new
-    @room = Room.find(params[:room_id]) 
+    @room = Room.find(params[:room_id])
     @messages = @room.messages.includes(:user)
   end
 
@@ -16,6 +16,11 @@ class MessagesController < ApplicationController
       @messages = @room.messages.includes(:user)
       render :index
     end
+  end
+
+  def destroy
+    @message =  @room.messages.find(params[:id])
+    @message.destroy
   end
 
   private

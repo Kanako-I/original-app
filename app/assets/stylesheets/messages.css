@@ -1,5 +1,5 @@
 .wrapper {
-  display: flex;
+  display: flex; 
 }
 .side-bar {
   background-color: #253141;
@@ -10,14 +10,14 @@
 .side-bar-header {
   height: 100px;
   padding: 0 20px;
-  background-color: #253141;
+  background-color: #CD853F;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .header-name a{
-  font-size: 16px;
+  font-size: 18px;
   color: #FAFAFA;
   text-decoration: none;
 }
@@ -27,14 +27,14 @@
 }
 
 .create-room a {
-  border: 1px solid lightblue;
+  border: 2px solid #191970;
   padding: 14px;
-  color: deepskyblue;
+  color: #191970;
   text-decoration: none;
 }
 
 .rooms {
-  background-color: #2f3e51;
+  background-color: #D2691E;
   height: calc(100vh - 100px);
   padding: 0 20px;
   overflow: scroll;
@@ -50,7 +50,7 @@
 
 .room-name a {
   text-decoration: none;
-  color: white;
+  color: black;
   font-size: 20px;
 }
 
@@ -100,12 +100,12 @@
 
 .message-user {
   color: #434a54;
-  font-size: 16px;
+  font-size: 14px;
 }
 
-.message-date {
+.message-date { 
   color: #999;
-  font-size: 12px;
+  font-size: 10px;
   padding-left: 10px;
 }
 
@@ -115,7 +115,7 @@
 
 .message-content {
   color: #434a54;
-  font-size: 14px;
+  font-size: 18px;
   margin-bottom: 40px;
 }
 
@@ -140,7 +140,7 @@
 }
 
 .form-submit {
-  background-color: #38AEF0;
+  background-color: #D2691E;
   border: none;
   color: white;
   font-size: 16px;
@@ -151,7 +151,7 @@
 
 .form-image {
   font-size: 12px;
-  background-color: lightblue;
+  background-color: #FFDEAD;
   color: white;
   padding: 12px;
   width: 60px;
@@ -161,4 +161,10 @@
 
 .hidden {
   display: none;
+}
+
+.host-name {
+  font-size: 18px;
+  color: #FAFAFA;
+  text-decoration: none;
 }

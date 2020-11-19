@@ -81,6 +81,7 @@
   border: 1px solid darkred;
   color: darkred;
   padding: 20px;
+  margin-left: 20px;
 }
 
 .messages {
@@ -103,7 +104,7 @@
   font-size: 14px;
 }
 
-.message-date { 
+.message-date {
   color: #999;
   font-size: 10px;
   padding-left: 10px;
@@ -168,4 +169,8 @@
   font-size: 18px;
   color: #FAFAFA;
   text-decoration: none;
+}
+
+.delete-btn {
+  font-size: 10px;
 }

@@ -13,8 +13,10 @@
     <div class="message-content">
       <!-- 投稿したメッセージ内容を記述する -->
       <%= message.content %>
-      <%# <%= link_to message.content, room_messages_path(room) %>
-      <%# <%= link_to "Log out", destroy_user_session_path, method: :delete, class: 'btn'%> 
+      <!-- 投稿したメッセージの削除について -->
+      <% if current_user.id == message.user.id %>
+        <%= link_to 'delete', "/rooms/#{@room.id}/messages/#{message.id}", method: :delete, class: 'delete-btn' %>
+      <% end %>
     </div>
     <%= image_tag message.image.variant(resize: '500x500'), class: 'message-image' if message.image.attached? %>
   </div>

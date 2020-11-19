@@ -49,23 +49,25 @@
         </div>
         <div class='field'>
           <div class='field-label'>
-            <%= f.label :resident%>
+            <%= f.label :resident_id %>
           </div>
           <div class='field-input'>
-            <%= f.text_field :resident %>
+            <%# <%= f.text_field :resident_id %> 
+            <%= f.collection_select(:resident_id, Resident.all, :id, :name, {}, {class:"select-box"}) %> 
           </div>
         </div>
         <div class='field'>
           <div class='field-label'>
-            <%= f.label :age %>
+            <%= f.label :age_id %>
           </div>
           <div class='field-input'>
-            <%= f.text_field :age %>
+            <%# <%= f.text_field :age_id %> 
+            <%= f.collection_select(:age_id, Age.all, :id, :name, {}, {class:"select-box"}) %> 
           </div>
         </div>
         <div class='field'>
           <div class='field-label'>
-            <%= f.label :occupation %>
+            <%= f.label :occupation_id %>
           </div>
           <div class='field-input'>
             <%# <%= f.text_field :occupation %> 

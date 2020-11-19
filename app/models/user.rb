@@ -17,7 +17,7 @@ class User < ApplicationRecord
   has_many :messages
 
   extend ActiveHash::Associations::ActiveRecordExtensions
-  belongs_to :occupation_id
-  belongs_to :age_id
-  belongs_to :resident_id
+  belongs_to_active_hash :occupation
+  belongs_to_active_hash :age
+  belongs_to_active_hash :resident
 end

@@ -68,8 +68,8 @@
             <%= f.label :occupation %>
           </div>
           <div class='field-input'>
-            <%# <%= f.text_field :occupation %>
-            <%= f.collection_select(:occupation_id, Occupation.all, :id, :name, {}) %>
+            <%# <%= f.text_field :occupation %> 
+            <%= f.collection_select(:occupation_id, Occupation.all, :id, :name, {}, {class:"select-box"}) %> 
           </div>
         </div>
         <div class='actions'>

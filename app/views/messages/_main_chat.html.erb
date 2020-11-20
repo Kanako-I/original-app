@@ -7,6 +7,10 @@
   <div class="right-header">
     <div class="header-button">
       <% if current_user.id == @room.user_id %>
+        <%= link_to "Edit chat name", edit_room_path(@room.id) %>
+      <% end %>
+
+      <% if current_user.id == @room.user_id %>
         <%= link_to "Close the room", room_path(@room), method: :delete %>
       <% else %>
         <%# <div class="host-name"> %>

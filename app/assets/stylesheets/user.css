@@ -91,6 +91,9 @@
   width: 5px;
   background-color: #d65f4c;
 }
+.select-box{
+  width: 429px;
+}
 
 #error_explanation {
   margin: 20px 0;

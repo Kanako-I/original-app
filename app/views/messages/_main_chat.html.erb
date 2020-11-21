@@ -33,5 +33,7 @@
       <%= f.file_field :image, class: 'hidden' %>
     </label>
   </div>
-  <%= f.submit 'Send', class: 'form-submit' %>
+  <%= f.submit 'Send', class: 'form-submit', id: "submit" %>
+  <div id="list">
+  </div>
 <% end %>

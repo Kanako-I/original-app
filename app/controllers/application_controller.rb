@@ -6,8 +6,8 @@ class ApplicationController < ActionController::Base
     rooms_path(resource)
   end
 
-  private
 
+  private
   def configure_permitted_parameters
     devise_parameter_sanitizer.permit(:sign_up, keys: [:first_name, :last_name, :resident_id, :age_id, :occupation_id])
   end

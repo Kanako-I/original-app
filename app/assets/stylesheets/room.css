@@ -4,6 +4,25 @@ h1 {
   font-weight: bold;
   text-align: center;
 }
+
+/* h2 {
+  margin-bottom: 10px;
+  color: #f05050;
+  font-size: 14px;
+} */
+
+/* ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+} */
+
 .chat-room-form {
   width: 980px;
   margin: 60px auto;
@@ -13,6 +32,14 @@ h1 {
   border-radius: 5px;
   box-sizing: border-box;
 }
+
+/* .chat-room-form__errors {
+  margin: 30px 0;
+  padding: 20px 40px;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  text-align: center; */
+/* } */
 
 .chat-room-form__label {
   display: block;
@@ -54,11 +81,36 @@ h1 {
   width: 70%;
 }
 
-.coution-messages{
-  width: 980px;
-  margin: 60px auto;
+/* select {
+  width: 500px;
+  height: 50px;
+} */
+
+/* .top-header {
+  background-color: #434a54;
+  height: 80px;
+  width: 100%;
 }
 
-.messages-details{
-  font-size: 17px;
+.field_with_errors {
+  display: contents;
 }
+
+.account-page input[type=submit] {
+  float: left;
+  margin-top: 20px;
+  color: #fff;
+  background-color: #D2691E;
+} */
+
+.caution-messages {
+  width: 980px;
+  margin: 60px auto;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.thank-you {
+  margin-top: 20px;
+  font-weight: normal;
+

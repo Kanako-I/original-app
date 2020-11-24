@@ -1,10 +1,11 @@
-class MessagesController < ApplicationController
+class MessagesController < ApplicationController 
   before_action :move_to_index
   
   def index
     @message = Message.new
     @room = Room.find(params[:room_id])
     @messages = @room.messages.includes(:user)
+    # @user = User.find(params[:room_id])
   end
 
   def create

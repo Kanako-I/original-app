@@ -86,3 +86,8 @@ footer{
   text-align: center;
   color: 696969;
 }
+
+select {
+  width: 500px;
+  height: 50px;
+}

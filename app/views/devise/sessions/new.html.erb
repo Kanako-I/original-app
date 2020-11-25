@@ -1,8 +1,7 @@
-<div class='account-page' id='account-page'>
+<div class='account-page' id='account-page'> 
   <div class='account-page__inner clearfix'>
     <div class='account-page__inner--left account-page__header'>
       <h2>Log in</h2>
-      <%= render "devise/shared/links"%>
     </div>
     <div class='account-page__inner--right user-form'>
       <%= form_with model: resource, url: user_session_path, local: true do |f|%>

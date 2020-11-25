@@ -1,4 +1,4 @@
-<div class="chat-header">
+<div class="chat-header"> 
   <div class="left-header">
     <div class="header-title">
       <%= @room.name %>
@@ -12,10 +12,6 @@
 
       <% if current_user.id == @room.user_id %>
         <%= link_to "Close the room", room_path(@room), method: :delete %>
-      <% else %>
-        <%# <div class="host-name"> %>
-        Host: <%= @room.user_id %>
-        <%# </div> %>
       <% end %>
     </div>
   </div>

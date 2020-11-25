@@ -14,7 +14,7 @@
   justify-content: space-between;
   align-items: center;
 }
-.header-name a{
+.header-name a {
   font-size: 18px;
   color: #FAFAFA;
   text-decoration: none;
@@ -34,9 +34,6 @@
   padding: 0 20px;
   overflow: scroll;
 }
-/* .room {
-  padding: 20px 0 40px;
-} */
 .chatroom {
   margin-top: 25px;
 }

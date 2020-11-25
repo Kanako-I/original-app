@@ -4,21 +4,16 @@ body {
   color: #333;
   margin: 0 auto;
 }
-
-
 h1,h2,p {
   padding: 10px 0;
   margin: 0;
 }
-
-
 header{
   height: 130px;
   background-color: #CD853F;
   padding: 10px o;
   display: flex;
 }
-
 .heading{
   margin-left: 30px;
   width: 50%;
@@ -26,7 +21,6 @@ header{
   justify-content: center;
   align-items: center;
 }
-
 .navbar {
   width: 50%;
   padding: 20px;
@@ -34,7 +28,6 @@ header{
   justify-content: flex-end;
   align-items: center;
 }
-
 .nav-lists{
   margin-right: 20px;
   padding: 0;
@@ -42,31 +35,25 @@ header{
   justify-content: flex-end;
   align-items: center;
 }
-
 li{
   margin-right: 40px;
 }
-
 .content{ 
   background-color: white;
 }
-
 .first-view{
   height: 65vh;
 }
-
 .top-image{
   height: 100%;
   width: 50%;
   display: flex;
   margin: 0 auto;
 }
-
 .upper-content{
   height: 450px;
   margin: 0 160px;
 }
-
 .heading-name{
   text-align: center;
   border-bottom: 1px solid #D2691E;
@@ -75,18 +62,15 @@ li{
   font-size: 25px;
   color: #D2691E; 
 }
-
 .details {
   font-size: 20px;
 }
-
 footer{
   height: 50px;
   background-color: #CD853F ;
   text-align: center;
   color: 696969;
 }
-
 select {
   width: 500px;
   height: 50px;

@@ -37,6 +37,7 @@ header{
 }
 li{
   margin-right: 40px;
+  list-style: none;
 }
 .content{ 
   background-color: white;

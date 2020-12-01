@@ -16,6 +16,9 @@ class User < ApplicationRecord
   has_many :rooms, through: :room_users
   has_many :messages
 
+  PASSWORD_REGEX = /\A(?=.*?[a-z])(?=.*?\d)[a-z\d]+\z/i.freeze
+  validates_format_of :password, with: PASSWORD_REGEX
+
   extend ActiveHash::Associations::ActiveRecordExtensions
   belongs_to_active_hash :occupation
   belongs_to_active_hash :age

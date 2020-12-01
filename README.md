@@ -20,23 +20,23 @@ https://original-app-31104.herokuapp.com
 ### トップページ
 トップページからチャットページへ遷移するには、ログインまたは新規登録が必須です。
 仮にログインしていないユーザーが直接ログイン先のURLを入力しても、このトップページへ遷移します。
-<img src="/assets/toppage.png" alt="top page" >
+<img src="https://github.com/Kanako-I/original-app/blob/master/app/assets/toppage.png?raw=true" >
 
 ### 新規登録ページ、ログインページ
 新規登録ページには、名前、メールアドレス、パスワードの他に、居住区、年齢、職業を選択する項目があります。
 ログインの際は、メールアドレスとパスワードの入力のみでログイン可能です。
-<img src="/assets/signin.png" alt="signin page" >
-<img src="/assets/login.png" alt="login page" >
+<img src="https://github.com/Kanako-I/original-app/blob/master/app/assets/signin.png?raw=true" >
+<img src="https://github.com/Kanako-I/original-app/blob/master/app/assets/login.png?raw=true" >
 
 ### チャットページ
 チャットページでは、誰でも既存のチャットに参加することができ、自分でチャットグループを作成することもできます。
 チャットの作成者は、いつでもグループ名の編集、およびグループの削除をすることができます。
-<img src="/assets/chat.png" alt="chat page" >
+<img src="https://github.com/Kanako-I/original-app/blob/master/app/assets/chat.png?raw=true" >
 
 ### チャットルーム新規作成、編集ページ
 英語での説明書きとなりますが、新規作成ページには、「ルーム名は会話の内容がわかりやすいものにしてください。」「会話の内容が変わった場合は、定期的にルーム名を変えてください。」という注意書きを入れています。これは、他のユーザーがルーム名を見ただけでそのルームのチャット内容を把握できるようにするためです。
-<img src="/assets/roomcreate.png" alt="roomcreate page" >
-<img src="/assets/roomedit.png" alt="roomedit page" >
+<img src="https://github.com/Kanako-I/original-app/blob/master/app/assets/roomcreate.png?raw=true" >
+<img src="https://github.com/Kanako-I/original-app/blob/master/app/assets/roomedit.png?raw=true" >
 
 # 工夫したポイント
 会員登録およびページの閲覧機能です。

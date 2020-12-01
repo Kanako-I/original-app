@@ -20,7 +20,8 @@
     <div class="contents">
       <div class="first-view">
         <!-- 『トップ画像』を表示する -->
-        <%= image_tag '/assets/image.jpeg', class:"top-image" %>
+        <%# <%= image_tag '/assets/image.jpeg', class:"top-image" %> 
+        <%= image_tag asset_path("image.jpeg", alt: "toppage") %>
         
       </div>
       <div class="upper-content">
